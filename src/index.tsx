@@ -1,6 +1,6 @@
 import React from "react";
 
-interface GlowButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface GlowButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
   color?: string;
 }

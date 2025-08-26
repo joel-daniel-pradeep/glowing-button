@@ -6,4 +6,4 @@ interface GlowButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> 
 }
 declare const GlowButton: React.FC<GlowButtonProps>;
 
-export { GlowButton, GlowButton as default };
+export { GlowButton, type GlowButtonProps, GlowButton as default };
